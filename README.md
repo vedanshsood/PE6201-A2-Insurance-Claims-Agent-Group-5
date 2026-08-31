@@ -1,5 +1,5 @@
 # PE6201 A2 — Applied AI System
-## Team [Team ID] · Problem A: Health-Insurance Claim First Response
+## Team [C-5] · Problem A: Health-Insurance Claim First Response
 
 ---
 
@@ -7,12 +7,12 @@
 
 | # | Member | Deliverables Owned | Report Section(s) | Dependencies |
 |---|--------|--------------------|--------------------|--------------|
-| 1 | **[Name 1]** (Lead Coder) | D1 — ReAct loop implementation<br>D2(c) — multi-tool-call parsing, dependency rule, sequential vs. parallel measurement<br>D3(a) — code-layer guardrails (step cap, budget ceiling, de-duplication, autonomy gate)<br>D5 — scripted backend + live OpenRouter model battery<br>D7 — technical reproduction of both failures | — | None (produces core outputs others depend on) |
-| 2 | **[Name 2]** (Support Coder) | Code cross-checks and review<br>Supports D0(a) — ladder/rung selection and architecture choice<br>Supports D2(c) — dependency rule design<br>Supports D3(a)/D7 — stop-condition and step-cap sizing | Section 5 (draft, with Member 1)<br>Section 6 (draft) | Works alongside Member 1 |
-| 3 | **[Name 3]** | D0 — why an agent, ladder placement, ground-truth signals, "what good looks like" (5 statements)<br>D2(a) — tool set selection + 3-question justification table | **Section 1** (Why an agent + tool set) | None — should be completed before agent code begins |
-| 4 | **[Name 4]** | D2(b) — six-field descriptor contracts per tool, poka-yoke identification, descriptor rewrite (v1 vs. v2) | **Section 2** (Tool layer) | Needs token counts / pass rates from Member 1 for the rewrite measurement |
-| 5 | **[Name 5]** | D3(b) — 10+ guardrail test cases (named failure mode + observed result)<br>D4 — 30–50 evaluation cases, including 6–10 negative cases | **Section 3** (What the evidence showed) — jointly with Member 6 | Needs scripted/live run results from Member 1 |
-| 6 | **[Name 6]** | D6 — three-layer cost model, sensitivity table, break-even success rate, four-lever cost ledger | **Section 4** (What it costs) | Needs measured token counts, turn counts (Member 1) and pass rate (Member 5/D4) |
+| 1 | **SOOD VEDANSH** (Lead Coder) | D1 — ReAct loop implementation<br>D2(c) — multi-tool-call parsing, dependency rule, sequential vs. parallel measurement<br>D3(a) — code-layer guardrails (step cap, budget ceiling, de-duplication, autonomy gate)<br>D5 — scripted backend + live OpenRouter model battery<br>D7 — technical reproduction of both failures | — | None (produces core outputs others depend on) |
+| 2 | **YANG YICHEN** (Support Coder) | Code cross-checks and review<br>Supports D0(a) — ladder/rung selection and architecture choice<br>Supports D2(c) — dependency rule design<br>Supports D3(a)/D7 — stop-condition and step-cap sizing | Section 5 (draft, with Member 1)<br>Section 6 (draft) | Works alongside Member 1 |
+| 3 | **ZHANG QIZHI** | D0 — why an agent, ladder placement, ground-truth signals, "what good looks like" (5 statements)<br>D2(a) — tool set selection + 3-question justification table | **Section 1** (Why an agent + tool set) | None — should be completed before agent code begins |
+| 4 | **CHEN BAIYI** | D2(b) — six-field descriptor contracts per tool, poka-yoke identification, descriptor rewrite (v1 vs. v2) | **Section 2** (Tool layer) | Needs token counts / pass rates from Member 1 for the rewrite measurement |
+| 5 | **QIAN RUOQI** | D3(b) — 10+ guardrail test cases (named failure mode + observed result)<br>D4 — 30–50 evaluation cases, including 6–10 negative cases | **Section 3** (What the evidence showed) — jointly with Member 6 | Needs scripted/live run results from Member 1 |
+| 6 | **FANG HIOIENG** | D6 — three-layer cost model, sensitivity table, break-even success rate, four-lever cost ledger | **Section 4** (What it costs) | Needs measured token counts, turn counts (Member 1) and pass rate (Member 5/D4) |
 
 ---
 
