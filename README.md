@@ -8,12 +8,12 @@
 
 | # | Name | Role | Deliverables | Report Section | Live Model | Tier |
 |---|------|------|-------------|----------------|------------|------|
-| 1 | SOOD VEDANSH | Lead Coder | D1, D2(c), D3(a), D5(a), D7 | — | `mistralai/mistral-7b-instruct` | Cheap |
+| 1 | SOOD VEDANSH | Lead Coder | D1, D2(c), D3(a), D5(a), D7 | — | `mistralai/mistral-small-3.2-24b-instruct` | Mid |
 | 2 | YANG YICHEN | Support Coder | Code review, D0(a) support, D2(c) dependency design, D3(a)/D7 stop-condition sizing | Sections 5 & 6 | `google/gemma-3-4b-it` | Cheap |
-| 3 | ZHANG QIZHI | Conceptual Lead | D0(a), D0(b), D0(c), D2(a) | Section 1 | `mistralai/mistral-small-3.2-24b-instruct` | Mid |
-| 4 | CHEN BAIYI | Tool Design Lead | D2(b) — descriptors, poka-yoke, v1 vs v2 rewrite | Section 2 | v1 pass on `mistralai/mistral-7b-instruct` (same as Member 1) | Cheap |
-| 5 | QIAN RUOQI | Eval & Guardrail Lead | D3(b), D4 | Section 3 | `meta-llama/llama-3.1-8b-instruct` | Cheap |
-| 6 | FANG HIOIENG | Cost Analysis Lead | D6 — cost model, sensitivity table, break-even, four-lever ledger | Sections 3 & 4 | `google/gemini-2.0-flash-lite-001` | Mid |
+| 3 | ZHANG QIZHI | Conceptual Lead | D0(a), D0(b), D0(c), D2(a) | Section 1 | `meta-llama/llama-3.1-8b-instruct` | Cheap |
+| 4 | CHEN BAIYI | Tool Design Lead | D2(b) — descriptors, poka-yoke, v1 vs v2 rewrite | Section 2 | v1 pass on `mistralai/mistral-small-3.2-24b-instruct` (same as Member 1) | Mid |
+| 5 | QIAN RUOQI | Eval & Guardrail Lead | D3(b), D4 | Section 3 | `qwen/qwen-2.5-7b-instruct` | Cheap |
+| 6 | FANG HIOIENG | Cost Analysis Lead | D6 — cost model, sensitivity table, break-even, four-lever ledger | Sections 3 & 4 | `microsoft/phi-3-mini-128k-instruct` | Cheap |
 
 ---
 
@@ -21,14 +21,14 @@
 
 | Member | Model (OpenRouter string) | Tier | Price (in/out per 1M tokens) | Family |
 |--------|--------------------------|------|------------------------------|--------|
-| SOOD VEDANSH | `mistralai/mistral-7b-instruct` | Cheap | $0.10 / $0.40 | Mistral |
+| SOOD VEDANSH | `mistralai/mistral-small-3.2-24b-instruct` | Mid | $1.00 / $5.00 | Mistral |
 | YANG YICHEN | `google/gemma-3-4b-it` | Cheap | $0.10 / $0.40 | Google |
-| ZHANG QIZHI | `mistralai/mistral-small-3.2-24b-instruct` | Mid | $1.00 / $5.00 | Mistral |
-| QIAN RUOQI | `meta-llama/llama-3.1-8b-instruct` | Cheap | $0.10 / $0.40 | Meta |
-| FANG HIOIENG | `google/gemini-2.0-flash-lite-001` | Mid | $1.00 / $5.00 | Google |
-| CHEN BAIYI | v1 pass on `mistralai/mistral-7b-instruct` | Cheap | $0.10 / $0.40 | Mistral (held fixed for descriptor comparison) |
+| ZHANG QIZHI | `meta-llama/llama-3.1-8b-instruct` | Cheap | $0.10 / $0.40 | Meta |
+| QIAN RUOQI | `qwen/qwen-2.5-7b-instruct` | Cheap | $0.10 / $0.40 | Qwen |
+| FANG HIOIENG | `microsoft/phi-3-mini-128k-instruct` | Cheap | $0.10 / $0.40 | Microsoft |
+| CHEN BAIYI | v1 pass on `mistralai/mistral-small-3.2-24b-instruct` | Mid | $1.00 / $5.00 | Mistral (held fixed for descriptor comparison) |
 
-> Models span two price tiers (cheap + mid). No two members share the same model family except where one is the v1 pass — which requires the same model as Member 1 by design.
+> Models span two price tiers (cheap + mid) — satisfies the brief's requirement. All five live models are from different families.
 
 ---
 
@@ -36,14 +36,14 @@
 
 | Member | Runs | Tier | Est. Cost |
 |--------|------|------|-----------|
-| SOOD VEDANSH | 56 (v2) | Cheap | ~US$0.27 |
+| SOOD VEDANSH | 56 (v2) | Mid | ~US$2.76 |
 | YANG YICHEN | 56 (v2) | Cheap | ~US$0.27 |
-| ZHANG QIZHI | 56 (v2) | Mid | ~US$2.76 |
+| ZHANG QIZHI | 56 (v2) | Cheap | ~US$0.27 |
 | QIAN RUOQI | 56 (v2) | Cheap | ~US$0.27 |
-| FANG HIOIENG | 56 (v2) | Mid | ~US$2.76 |
-| CHEN BAIYI | 56 (v1) | Cheap | ~US$0.27 |
+| FANG HIOIENG | 56 (v2) | Cheap | ~US$0.27 |
+| CHEN BAIYI | 56 (v1) | Mid | ~US$2.76 |
 
-> All within the US$3/member budget ceiling. Debug on scripted backend only — live tokens are for the final battery.
+> Total team live spend ~US$6.60. All members within the US$3/member ceiling.
 
 ---
 
