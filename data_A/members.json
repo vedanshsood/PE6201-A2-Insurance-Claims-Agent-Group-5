@@ -1,0 +1,194 @@
+[
+  {
+    "member_id": "M-2214",
+    "name": "Tan Wei Ling",
+    "policy_id": "POL-3310",
+    "join_date": "2024-04-01"
+  },
+  {
+    "member_id": "M-3390",
+    "name": "Rajesh Kumar",
+    "policy_id": "POL-4102",
+    "join_date": "2023-01-15"
+  },
+  {
+    "member_id": "M-4471",
+    "name": "Chen Xiaoyu",
+    "policy_id": "POL-5588",
+    "join_date": "2022-04-01"
+  },
+  {
+    "member_id": "M-5502",
+    "name": "Nurul Aisyah",
+    "policy_id": "POL-6001",
+    "join_date": "2026-06-01"
+  },
+  {
+    "member_id": "M-6118",
+    "name": "Lim Jun Hao",
+    "policy_id": "POL-7220",
+    "join_date": "2025-02-01"
+  },
+  {
+    "member_id": "M-V001",
+    "name": "Daniel Tan",
+    "policy_id": "POL-V001",
+    "join_date": "2026-09-10"
+  },
+  {
+    "member_id": "M-V002",
+    "name": "Mei Lin Wong",
+    "policy_id": "POL-V002",
+    "join_date": "2025-11-24"
+  },
+  {
+    "member_id": "M-V003",
+    "name": "Arjun Nair",
+    "policy_id": "POL-V003",
+    "join_date": "2025-12-15"
+  },
+  {
+    "member_id": "M-V004",
+    "name": "Rachel Lim",
+    "policy_id": "POL-V004",
+    "join_date": "2026-02-09"
+  },
+  {
+    "member_id": "M-V005",
+    "name": "Marcus Lee",
+    "policy_id": "POL-V005",
+    "join_date": "2026-03-21"
+  },
+  {
+    "member_id": "M-Q001",
+    "name": "Alicia Koh",
+    "policy_id": "POL-Q001",
+    "join_date": "2026-01-04"
+  },
+  {
+    "member_id": "M-Q002",
+    "name": "Ethan Goh",
+    "policy_id": "POL-Q002",
+    "join_date": "2026-01-11"
+  },
+  {
+    "member_id": "M-Q003",
+    "name": "Priya Menon",
+    "policy_id": "POL-Q003",
+    "join_date": "2026-02-03"
+  },
+  {
+    "member_id": "M-Q004",
+    "name": "Jeremy Ng",
+    "policy_id": "POL-Q004",
+    "join_date": "2026-01-18"
+  },
+  {
+    "member_id": "M-Q005",
+    "name": "Samantha Ho",
+    "policy_id": "POL-Q005",
+    "join_date": "2026-02-22"
+  },
+  {
+    "member_id": "M-C001",
+    "name": "Chloe Tan",
+    "policy_id": "POL-C001",
+    "join_date": "2026-06-01"
+  },
+  {
+    "member_id": "M-C002",
+    "name": "Ryan Lim",
+    "policy_id": "POL-C002",
+    "join_date": "2026-01-20"
+  },
+  {
+    "member_id": "M-C003",
+    "name": "Natalie Ong",
+    "policy_id": "POL-C003",
+    "join_date": "2026-02-14"
+  },
+  {
+    "member_id": "M-C004",
+    "name": "Isaac Teo",
+    "policy_id": "POL-C004",
+    "join_date": "2026-03-09"
+  },
+  {
+    "member_id": "M-Z001",
+    "name": "Lucas Wong",
+    "policy_id": "POL-Z001",
+    "join_date": "2026-04-02"
+  },
+  {
+    "member_id": "M-Z002",
+    "name": "Michelle Chan",
+    "policy_id": "POL-Z002",
+    "join_date": "2026-01-15"
+  },
+  {
+    "member_id": "M-Z003",
+    "name": "Aaron Tay",
+    "policy_id": "POL-Z003",
+    "join_date": "2026-02-08"
+  },
+  {
+    "member_id": "M-Z004",
+    "name": "Grace Lee",
+    "policy_id": "POL-Z004",
+    "join_date": "2026-03-12"
+  },
+  {
+    "member_id": "M-F001",
+    "name": "Noah Tan",
+    "policy_id": "POL-F001",
+    "join_date": "2026-01-07"
+  },
+  {
+    "member_id": "M-F002",
+    "name": "Sophia Lim",
+    "policy_id": "POL-F002",
+    "join_date": "2026-02-16"
+  },
+  {
+    "member_id": "M-F003",
+    "name": "Benjamin Koh",
+    "policy_id": "POL-F003",
+    "join_date": "2026-03-04"
+  },
+  {
+    "member_id": "M-F004",
+    "name": "Emma Goh",
+    "policy_id": "POL-F004",
+    "join_date": "2026-01-29"
+  },
+  {
+    "member_id": "M-Y001",
+    "name": "Adrian Chua",
+    "policy_id": "POL-Y001",
+    "join_date": "2026-02-10"
+  },
+  {
+    "member_id": "M-Y002",
+    "name": "Jasmine Low",
+    "policy_id": "POL-Y002",
+    "join_date": "2026-01-22"
+  },
+  {
+    "member_id": "M-Y003",
+    "name": "Kelvin Yeo",
+    "policy_id": "POL-Y003",
+    "join_date": "2026-03-03"
+  },
+  {
+    "member_id": "M-Y004",
+    "name": "Nicole Tan",
+    "policy_id": "POL-Y004",
+    "join_date": "2026-02-17"
+  },
+  {
+    "member_id": "M-Y005",
+    "name": "Darren Ong",
+    "policy_id": "POL-Y005",
+    "join_date": "2026-01-12"
+  }
+]

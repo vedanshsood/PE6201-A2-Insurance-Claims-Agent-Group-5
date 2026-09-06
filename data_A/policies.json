@@ -1,0 +1,371 @@
+[
+  {
+    "policy_id": "POL-3310",
+    "product": "Shield Plus",
+    "status": "active",
+    "start_date": "2026-04-01",
+    "end_date": "2027-03-31",
+    "annual_limit": 12000,
+    "used_to_date": 2800,
+    "exclusions": [
+      {
+        "code": "31255",
+        "rule": "EX-14 cosmetic dermatology"
+      },
+      {
+        "code": "15823",
+        "rule": "EX-14 cosmetic dermatology"
+      }
+    ]
+  },
+  {
+    "policy_id": "POL-4102",
+    "product": "Shield Basic",
+    "status": "active",
+    "start_date": "2026-01-01",
+    "end_date": "2026-12-31",
+    "annual_limit": 6000,
+    "used_to_date": 5400,
+    "exclusions": [
+      {
+        "code": "15823",
+        "rule": "EX-14 cosmetic dermatology"
+      }
+    ]
+  },
+  {
+    "policy_id": "POL-5588",
+    "product": "Shield Plus",
+    "status": "lapsed",
+    "start_date": "2025-04-01",
+    "end_date": "2026-03-31",
+    "annual_limit": 12000,
+    "used_to_date": 900,
+    "exclusions": []
+  },
+  {
+    "policy_id": "POL-6001",
+    "product": "Shield Plus",
+    "status": "active",
+    "start_date": "2026-06-01",
+    "end_date": "2027-05-31",
+    "annual_limit": 15000,
+    "used_to_date": 0,
+    "exclusions": []
+  },
+  {
+    "policy_id": "POL-7220",
+    "product": "Shield Basic",
+    "status": "active",
+    "start_date": "2026-02-01",
+    "end_date": "2027-01-31",
+    "annual_limit": 8000,
+    "used_to_date": 1200,
+    "exclusions": [
+      {
+        "code": "31255",
+        "rule": "EX-14 cosmetic dermatology"
+      }
+    ]
+  },
+  {
+    "policy_id": "POL-V001",
+    "product": "Standard Health",
+    "status": "active",
+    "start_date": "2026-09-10",
+    "end_date": "2027-09-09",
+    "annual_limit": 10000,
+    "used_to_date": 2000,
+    "exclusions": []
+  },
+  {
+    "policy_id": "POL-V002",
+    "product": "Standard Health",
+    "status": "active",
+    "start_date": "2026-01-01",
+    "end_date": "2026-12-31",
+    "annual_limit": 15000,
+    "used_to_date": 3000,
+    "exclusions": []
+  },
+  {
+    "policy_id": "POL-V003",
+    "product": "Standard Health",
+    "status": "active",
+    "start_date": "2026-01-01",
+    "end_date": "2026-12-31",
+    "annual_limit": 15000,
+    "used_to_date": 2500,
+    "exclusions": []
+  },
+  {
+    "policy_id": "POL-V004",
+    "product": "Standard Health",
+    "status": "active",
+    "start_date": "2026-01-01",
+    "end_date": "2026-12-31",
+    "annual_limit": 10000,
+    "used_to_date": 9000,
+    "exclusions": []
+  },
+  {
+    "policy_id": "POL-V005",
+    "product": "Standard Health",
+    "status": "active",
+    "start_date": "2026-01-01",
+    "end_date": "2026-12-31",
+    "annual_limit": 10000,
+    "used_to_date": 1000,
+    "exclusions": []
+  },
+  {
+    "policy_id": "POL-Q001",
+    "product": "Standard Health",
+    "status": "active",
+    "start_date": "2026-01-01",
+    "end_date": "2026-12-31",
+    "annual_limit": 10000,
+    "used_to_date": 2000,
+    "exclusions": [
+      {
+        "code": "31255",
+        "rule": "EX-Q01"
+      }
+    ]
+  },
+  {
+    "policy_id": "POL-Q002",
+    "product": "Standard Health",
+    "status": "active",
+    "start_date": "2026-01-01",
+    "end_date": "2026-12-31",
+    "annual_limit": 15000,
+    "used_to_date": 2500,
+    "exclusions": [
+      {
+        "code": "31255",
+        "rule": "EX-Q02"
+      }
+    ]
+  },
+  {
+    "policy_id": "POL-Q003",
+    "product": "Standard Health",
+    "status": "active",
+    "start_date": "2026-01-01",
+    "end_date": "2026-12-31",
+    "annual_limit": 12000,
+    "used_to_date": 1500,
+    "exclusions": [
+      {
+        "code": "31255",
+        "rule": "EX-Q03"
+      }
+    ]
+  },
+  {
+    "policy_id": "POL-Q004",
+    "product": "Standard Health",
+    "status": "active",
+    "start_date": "2026-01-01",
+    "end_date": "2026-12-31",
+    "annual_limit": 14000,
+    "used_to_date": 3000,
+    "exclusions": []
+  },
+  {
+    "policy_id": "POL-Q005",
+    "product": "Standard Health",
+    "status": "active",
+    "start_date": "2026-01-01",
+    "end_date": "2026-12-31",
+    "annual_limit": 10000,
+    "used_to_date": 6000,
+    "exclusions": []
+  },
+  {
+    "policy_id": "POL-C001",
+    "product": "Standard Health",
+    "status": "active",
+    "start_date": "2026-04-01",
+    "end_date": "2027-03-31",
+    "annual_limit": 10000,
+    "used_to_date": 1000,
+    "exclusions": []
+  },
+  {
+    "policy_id": "POL-C002",
+    "product": "Standard Health",
+    "status": "active",
+    "start_date": "2026-01-01",
+    "end_date": "2026-12-31",
+    "annual_limit": 15000,
+    "used_to_date": 2000,
+    "exclusions": []
+  },
+  {
+    "policy_id": "POL-C003",
+    "product": "Standard Health",
+    "status": "active",
+    "start_date": "2026-01-01",
+    "end_date": "2026-12-31",
+    "annual_limit": 15000,
+    "used_to_date": 2500,
+    "exclusions": []
+  },
+  {
+    "policy_id": "POL-C004",
+    "product": "Standard Health",
+    "status": "active",
+    "start_date": "2026-01-01",
+    "end_date": "2026-12-31",
+    "annual_limit": 10000,
+    "used_to_date": 1000,
+    "exclusions": [
+      {
+        "code": "31255",
+        "rule": "EX-C04"
+      }
+    ]
+  },
+  {
+    "policy_id": "POL-Z001",
+    "product": "Standard Health",
+    "status": "active",
+    "start_date": "2026-04-01",
+    "end_date": "2027-03-31",
+    "annual_limit": 15000,
+    "used_to_date": 2000,
+    "exclusions": []
+  },
+  {
+    "policy_id": "POL-Z002",
+    "product": "Standard Health",
+    "status": "active",
+    "start_date": "2026-01-01",
+    "end_date": "2026-12-31",
+    "annual_limit": 20000,
+    "used_to_date": 3000,
+    "exclusions": []
+  },
+  {
+    "policy_id": "POL-Z003",
+    "product": "Standard Health",
+    "status": "active",
+    "start_date": "2026-01-01",
+    "end_date": "2026-12-31",
+    "annual_limit": 12000,
+    "used_to_date": 1500,
+    "exclusions": []
+  },
+  {
+    "policy_id": "POL-Z004",
+    "product": "Standard Health",
+    "status": "active",
+    "start_date": "2026-01-01",
+    "end_date": "2026-12-31",
+    "annual_limit": 10000,
+    "used_to_date": 1000,
+    "exclusions": []
+  },
+  {
+    "policy_id": "POL-F001",
+    "product": "Standard Health",
+    "status": "active",
+    "start_date": "2026-01-01",
+    "end_date": "2026-12-31",
+    "annual_limit": 10000,
+    "used_to_date": 1500,
+    "exclusions": []
+  },
+  {
+    "policy_id": "POL-F002",
+    "product": "Standard Health",
+    "status": "active",
+    "start_date": "2026-01-01",
+    "end_date": "2026-12-31",
+    "annual_limit": 5000,
+    "used_to_date": 4000,
+    "exclusions": [
+      {
+        "code": "31255",
+        "rule": "EX-F02"
+      }
+    ]
+  },
+  {
+    "policy_id": "POL-F003",
+    "product": "Standard Health",
+    "status": "active",
+    "start_date": "2026-01-01",
+    "end_date": "2026-12-31",
+    "annual_limit": 10000,
+    "used_to_date": 1000,
+    "exclusions": [
+      {
+        "code": "F9001",
+        "rule": "EX-F03"
+      }
+    ]
+  },
+  {
+    "policy_id": "POL-F004",
+    "product": "Standard Health",
+    "status": "active",
+    "start_date": "2026-01-01",
+    "end_date": "2026-12-31",
+    "annual_limit": 10000,
+    "used_to_date": 1000,
+    "exclusions": []
+  },
+  {
+    "policy_id": "POL-Y001",
+    "product": "Standard Health",
+    "status": "active",
+    "start_date": "2026-01-01",
+    "end_date": "2026-12-31",
+    "annual_limit": 10000,
+    "used_to_date": 1000,
+    "exclusions": []
+  },
+  {
+    "policy_id": "POL-Y002",
+    "product": "Standard Health",
+    "status": "active",
+    "start_date": "2026-01-01",
+    "end_date": "2026-12-31",
+    "annual_limit": 15000,
+    "used_to_date": 2000,
+    "exclusions": []
+  },
+  {
+    "policy_id": "POL-Y003",
+    "product": "Standard Health",
+    "status": "active",
+    "start_date": "2026-01-01",
+    "end_date": "2026-12-31",
+    "annual_limit": 10000,
+    "used_to_date": 500,
+    "exclusions": []
+  },
+  {
+    "policy_id": "POL-Y004",
+    "product": "Standard Health",
+    "status": "active",
+    "start_date": "2026-01-01",
+    "end_date": "2026-12-31",
+    "annual_limit": 10000,
+    "used_to_date": 1000,
+    "exclusions": []
+  },
+  {
+    "policy_id": "POL-Y005",
+    "product": "Standard Health",
+    "status": "active",
+    "start_date": "2026-01-01",
+    "end_date": "2026-12-31",
+    "annual_limit": 10000,
+    "used_to_date": 1000,
+    "exclusions": []
+  }
+]
