@@ -8,10 +8,10 @@
 
 | # | Name | Role | Deliverables | Report Section | Live Model | Tier |
 |---|------|------|-------------|----------------|------------|------|
-| 1 | SOOD VEDANSH | Lead Coder | D1, D2(c), D3(a), D5(a), D7 | — | `mistralai/mistral-small-3.2-24b-instruct` | Mid |
+| 1 | SOOD VEDANSH | Lead Coder | D1, D2(c), D3(a), D5(a), D7 | — | `openai/gpt-oss-20b` | Mid |
 | 2 | YANG YICHEN | Support Coder | Code review, D0(a) support, D2(c) dependency design, D3(a)/D7 stop-condition sizing | Sections 5 & 6 | `google/gemma-3-4b-it` | Cheap |
 | 3 | ZHANG QIZHI | Conceptual Lead | D0(a), D0(b), D0(c), D2(a) | Section 1 | `meta-llama/llama-3.1-8b-instruct` | Cheap |
-| 4 | CHEN BAIYI | Tool Design Lead | D2(b) — descriptors, poka-yoke, v1 vs v2 rewrite | Section 2 | v1 pass on `mistralai/mistral-small-3.2-24b-instruct` (same as Member 1) | Mid |
+| 4 | CHEN BAIYI | Tool Design Lead | D2(b) — descriptors, poka-yoke, v1 vs v2 rewrite | Section 2 | v1 pass on `openai/gpt-oss-20b` (same as Member 1) | Mid |
 | 5 | QIAN RUOQI | Eval & Guardrail Lead | D3(b), D4 | Section 3 | `qwen/qwen-2.5-7b-instruct` | Cheap |
 | 6 | FANG HIOIENG | Cost Analysis Lead | D6 — cost model, sensitivity table, break-even, four-lever ledger | Sections 3 & 4 | `microsoft/phi-3-mini-128k-instruct` | Cheap |
 
