@@ -12,7 +12,7 @@
 | 2 | YANG YICHEN | Support Coder | Code review, D0(a) support, D2(c) dependency design, D3(a)/D7 stop-condition sizing | Sections 5 & 6 | `google/gemini-2.5-flash` | Mid |
 | 3 | ZHANG QIZHI | Conceptual Lead | D0(a), D0(b), D0(c), D2(a) | Section 1 | `meta-llama/llama-3.1-8b-instruct` | Cheap |
 | 4 | CHEN BAIYI | Tool Design Lead | D2(b) — descriptors, poka-yoke, v1 vs v2 rewrite | Section 2 | v1 pass on `openai/gpt-oss-20b` (same as Member 1) | Mid |
-| 5 | QIAN RUOQI | Eval & Guardrail Lead | D3(b), D4 | Section 3 | `qwen/qwen-2.5-7b-instruct` | Cheap |
+| 5 | QIAN RUOQI | Eval & Guardrail Lead | D3(b), D4 | Section 3 | `z-ai/glm-4.5-air` | Cheap |
 | 6 | FANG HIOIENG | Cost Analysis Lead | D6 — cost model, sensitivity table, break-even, four-lever ledger | Sections 3 & 4 | `microsoft/phi-3-mini-128k-instruct` | Cheap |
 
 ---
@@ -24,7 +24,7 @@
 | SOOD VEDANSH | `mistralai/mistral-small-3.2-24b-instruct` | Mid | $1.00 / $5.00 | Mistral |
 | YANG YICHEN | `google/gemini-2.5-flash` | Mid | $0.60 / $5.00 | Google |
 | ZHANG QIZHI | `meta-llama/llama-3.1-8b-instruct` | Cheap | $0.10 / $0.40 | Meta |
-| QIAN RUOQI | `qwen/qwen-2.5-7b-instruct` | Cheap | $0.10 / $0.40 | Qwen |
+| QIAN RUOQI | `z-ai/glm-4.5-air` | Cheap | $0.10 / $0.40 | GLM |
 | FANG HIOIENG | `microsoft/phi-3-mini-128k-instruct` | Cheap | $0.10 / $0.40 | Microsoft |
 | CHEN BAIYI | v1 pass on `mistralai/mistral-small-3.2-24b-instruct` | Mid | $1.00 / $5.00 | Mistral (held fixed for descriptor comparison) |
 
