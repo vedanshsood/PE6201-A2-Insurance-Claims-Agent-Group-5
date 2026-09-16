@@ -9,7 +9,7 @@
 | # | Name | Role | Deliverables | Report Section | Live Model | Tier |
 |---|------|------|-------------|----------------|------------|------|
 | 1 | SOOD VEDANSH | Lead Coder | D1, D2(c), D3(a), D5(a), D7 | — | `openai/gpt-oss-20b` | Mid |
-| 2 | YANG YICHEN | Support Coder | Code review, D0(a) support, D2(c) dependency design, D3(a)/D7 stop-condition sizing | Sections 5 & 6 | `google/gemma-3-4b-it` | Cheap |
+| 2 | YANG YICHEN | Support Coder | Code review, D0(a) support, D2(c) dependency design, D3(a)/D7 stop-condition sizing | Sections 5 & 6 | `google/gemini-2.5-flash` | Mid |
 | 3 | ZHANG QIZHI | Conceptual Lead | D0(a), D0(b), D0(c), D2(a) | Section 1 | `meta-llama/llama-3.1-8b-instruct` | Cheap |
 | 4 | CHEN BAIYI | Tool Design Lead | D2(b) — descriptors, poka-yoke, v1 vs v2 rewrite | Section 2 | v1 pass on `openai/gpt-oss-20b` (same as Member 1) | Mid |
 | 5 | QIAN RUOQI | Eval & Guardrail Lead | D3(b), D4 | Section 3 | `qwen/qwen-2.5-7b-instruct` | Cheap |
@@ -22,7 +22,7 @@
 | Member | Model (OpenRouter string) | Tier | Price (in/out per 1M tokens) | Family |
 |--------|--------------------------|------|------------------------------|--------|
 | SOOD VEDANSH | `mistralai/mistral-small-3.2-24b-instruct` | Mid | $1.00 / $5.00 | Mistral |
-| YANG YICHEN | `google/gemma-3-4b-it` | Cheap | $0.10 / $0.40 | Google |
+| YANG YICHEN | `google/gemini-2.5-flash` | Mid | $0.60 / $5.00 | Google |
 | ZHANG QIZHI | `meta-llama/llama-3.1-8b-instruct` | Cheap | $0.10 / $0.40 | Meta |
 | QIAN RUOQI | `qwen/qwen-2.5-7b-instruct` | Cheap | $0.10 / $0.40 | Qwen |
 | FANG HIOIENG | `microsoft/phi-3-mini-128k-instruct` | Cheap | $0.10 / $0.40 | Microsoft |
@@ -37,13 +37,13 @@
 | Member | Runs | Tier | Est. Cost |
 |--------|------|------|-----------|
 | SOOD VEDANSH | 56 (v2) | Mid | ~US$2.76 |
-| YANG YICHEN | 56 (v2) | Cheap | ~US$0.27 |
+| YANG YICHEN | 56 (v2) | Mid | ~US$0.89 |
 | ZHANG QIZHI | 56 (v2) | Cheap | ~US$0.27 |
 | QIAN RUOQI | 56 (v2) | Cheap | ~US$0.27 |
 | FANG HIOIENG | 56 (v2) | Cheap | ~US$0.27 |
 | CHEN BAIYI | 56 (v1) | Mid | ~US$2.76 |
 
-> Total team live spend ~US$6.60. All members within the US$3/member ceiling.
+> Total team live spend ~US$7.22. All members within the US$3/member ceiling.
 
 ---
 
