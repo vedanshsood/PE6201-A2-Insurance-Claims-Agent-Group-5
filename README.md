@@ -21,12 +21,12 @@
 
 | Member | Model (OpenRouter string) | Tier | Price (in/out per 1M tokens) | Family |
 |--------|--------------------------|------|------------------------------|--------|
-| SOOD VEDANSH | `mistralai/mistral-small-3.2-24b-instruct` | Mid | $1.00 / $5.00 | Mistral |
+| SOOD VEDANSH | `openai/gpt-oss-20b` | Mid | $1.00 / $5.00 | OpenAI |
 | YANG YICHEN | `google/gemini-2.5-flash` | Mid | $0.60 / $5.00 | Google |
 | ZHANG QIZHI | `meta-llama/llama-3.1-8b-instruct` | Cheap | $0.10 / $0.40 | Meta |
 | QIAN RUOQI | `z-ai/glm-4.5-air` | Cheap | $0.10 / $0.40 | GLM |
 | FANG HIOIENG | `microsoft/phi-3-mini-128k-instruct` | Cheap | $0.10 / $0.40 | Microsoft |
-| CHEN BAIYI | v1 pass on `mistralai/mistral-small-3.2-24b-instruct` | Mid | $1.00 / $5.00 | Mistral (held fixed for descriptor comparison) |
+| CHEN BAIYI | v1 pass on `openai/gpt-oss-20b` | Mid | $1.00 / $5.00 | OpenAI (held fixed for descriptor comparison) |
 
 > Models span two price tiers (cheap + mid) — satisfies the brief's requirement. All five live models are from different families.
 
