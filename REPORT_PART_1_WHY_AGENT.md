@@ -8,7 +8,7 @@ The claim adjudication task satisfies both core agentic criteria:
 1. **Dynamic Tool Dependency**: Subsequent actions cannot be predetermined. For example, calling `get_preauthorisation` is strictly conditional on the authoritative `requires_preauthorisation` boolean returned by `check_coverage` for specific procedure codes.
 2. **Iterative Evidence Gathering and Compounding Reliability**: Adjudication requires multi-turn information retrieval where per-step errors compound exponentially across the trajectory. Mathematically, reliability follows $P = s^T$, or $s = P^{(1/T)}$. In our V2 live evaluation using `qwen/qwen-2.5-72b-instruct`, the agent achieved an end-to-end pass rate of $P = 88.33\%$ (53 out of 60 trials) across an average horizon of $T = 5.47$ tool calls (328 total tool calls across 60 trials). This derives a single-step success probability of:
 
-$$s = (0.8833)^{1 / 5.47} \approx 0.9776 \quad (97.76\%)$$
+$$s = (0.8833)^{1 / 5.47} \approx 0.9776 \quad (97.76\%))$$
 
 Static prompt chains lack state-tracking mechanisms to maintain this level of step-wise precision, causing compounded drift.
 
