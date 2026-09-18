@@ -1,0 +1,16 @@
+# Section 1: Why an Agent
+
+## 1.1 Ladder Placement and Alternative Rungs
+For the Problem A health-insurance first response system, we placed our system at **Rung 3 (Conditional / Dynamic Workflow Agent)** on the autonomy ladder. Lower levels (Rungs 0–1: deterministic scripts and single-call LLMs) cannot support claim verification because incoming claims present non-linear branching and dynamic dependencies across procedures, documents, and policies that static pipelines cannot resolve. Conversely, higher rungs (Rungs 4–6: open-ended, fully autonomous goal-seeking agents) introduce severe legal, financial, and compliance liabilities in insurance settlement. Unbounded autonomy risks hallucinations, prompt injection via hostile member narratives, and unauthorized claim approvals. Rung 3 provides the optimal trade-off: the model dynamically reasons over diagnostic evidence while bounded by deterministic guardrails (`MAX_TURNS=8`, `TOKEN_BUDGET=60,000`, duplicate action blocking) and strict human-in-the-loop gating (`AUTONOMY="confirm"` on `issue_decision_letter`).
+
+## 1.2 Workflow Test and Agentic Conditions
+The claim adjudication task satisfies both core agentic criteria:
+1. **Dynamic Tool Dependency**: Subsequent actions cannot be predetermined. For example, calling `get_preauthorisation` is strictly conditional on the authoritative `requires_preauthorisation` boolean returned by `check_coverage` for specific procedure codes.
+2. **Iterative Evidence Gathering and Compounding Reliability**: Adjudication requires multi-turn information retrieval where per-step errors compound exponentially across the trajectory. Mathematically, reliability follows $P = s^T$, or $s = P^{(1/T)}$. In our V2 live evaluation using `qwen/qwen-2.5-72b-instruct`, the agent achieved an end-to-end pass rate of $P = 88.33\%$ (53 out of 60 trials) across an average horizon of $T = 5.47$ tool calls (328 total tool calls across 60 trials). This derives a single-step success probability of:
+
+$$s = (0.8833)^{1 / 5.47} \approx 0.9776 \quad (97.76\%)$$
+
+Static prompt chains lack state-tracking mechanisms to maintain this level of step-wise precision, causing compounded drift.
+
+## 1.3 What Good Looks Like
+In production, "what good looks like" demands strict adherence to authoritative ground truth: zero unauthorized approvals (`approve_in_principle`), zero infinite invocation loops on read endpoints (`get_claim`), deterministic rejection of hostile prompt injections, and proper escalation when claims are duplicates or exceed annual policy limits. The system must prioritize evidence completeness over conversational output.
