@@ -13,7 +13,7 @@
 | 3 | ZHANG QIZHI | Conceptual Lead | D0(a), D0(b), D0(c), D2(a) | Section 1 | `qwen/qwen-2.5-72b-instruct` | Mid |
 | 4 | CHEN BAIYI | Tool Design Lead | D2(b) — descriptors, poka-yoke, v1 vs v2 rewrite | Section 2 | v1 pass on `openai/gpt-oss-20b` (same as Member 1) | Mid |
 | 5 | QIAN RUOQI | Eval & Guardrail Lead | D3(b), D4 | Section 3 | `z-ai/glm-4.5-air` | Cheap |
-| 6 | FANG HIOIENG | Cost Analysis Lead | D6 — cost model, sensitivity table, break-even, four-lever ledger | Sections 3 & 4 | `microsoft/phi-3-mini-128k-instruct` | Cheap |
+| 6 | FANG HIOIENG | Cost Analysis Lead | D6 — cost model, sensitivity table, break-even, four-lever ledger | Sections 3 & 4 | `deepseek/deepseek-chat-v3.1` | Mid |
 
 ---
 
@@ -40,7 +40,7 @@
 | YANG YICHEN | 56 (v2) | Mid | ~US$0.89 |
 | ZHANG QIZHI | 56 (v2) | Cheap | ~US$0.33 |
 | QIAN RUOQI | 56 (v2) | Cheap | ~US$0.27 |
-| FANG HIOIENG | 56 (v2) | Cheap | ~US$0.27 |
+| FANG HIOIENG | 56 (v2) | Mid | ~US$1.47 |
 | CHEN BAIYI | 56 (v1) | Mid | ~US$2.76 |
 
 > Total team live spend ~US$7.22. All members within the US$3/member ceiling.
