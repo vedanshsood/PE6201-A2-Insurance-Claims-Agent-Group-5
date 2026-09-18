@@ -25,7 +25,7 @@
 | YANG YICHEN | `google/gemini-2.5-flash` | Mid | $0.60 / $5.00 | Google |
 | ZHANG QIZHI | `qwen/qwen-2.5-72b-instruct` | Mid | $0.36 / $0.40 | Qwen |
 | QIAN RUOQI | `z-ai/glm-4.5-air` | Cheap | $0.10 / $0.40 | GLM |
-| FANG HIOIENG | `microsoft/phi-3-mini-128k-instruct` | Cheap | $0.10 / $0.40 | Microsoft |
+| FANG HIOIENG | `deepseek/deepseek-chat-v3.1` | Mid | $0.25 / $0.95 | Deepseek |
 | CHEN BAIYI | v1 pass on `openai/gpt-oss-20b` | Mid | $1.00 / $5.00 | OpenAI (held fixed for descriptor comparison) |
 
 > Models span two price tiers (cheap + mid) — satisfies the brief's requirement. All five live models are from different families.
